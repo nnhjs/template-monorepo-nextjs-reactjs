@@ -6,7 +6,9 @@ This is template [monorepo](https://github.com/babel/babel/blob/master/doc/desig
 - 1 package for reactjs
 - 1 package for nextjs
 - 2 packages commons
-
+<p align="center">
+  <img align="center" src="https://user-images.githubusercontent.com/52577080/173622679-2ee147bb-d5c6-4219-a707-38336ab4b028.png" alt="Monorepo" />
+</p>
 ## What can monorepo do?
 Monorepo allows you to manage more packages in one project. 
 
