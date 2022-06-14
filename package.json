@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
   "dependencies": {
     "lerna": "^5.1.1"
   },
