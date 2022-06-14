@@ -5,10 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "bootstrap": "lerna bootstrap"
+    "lodash": "3.0.0"
   },
   "dependencies": {
-    "package1": "^0.0.1"
+    "package1": "^0.0.1",
+    "react": "18.1.0"
+  },
+  "peerDependencies": {
+    "react": "18.1.0"
   },
   "keywords": [],
   "author": "",

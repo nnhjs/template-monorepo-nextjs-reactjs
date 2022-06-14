@@ -2,12 +2,11 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "hoist": "lerna bootstrap --hoist",
+    "clean": "lerna clean"
   },
   "dependencies": {
-    "lerna": "^5.1.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.17.0"
+    "lerna": "^5.1.2"
   }
 }
