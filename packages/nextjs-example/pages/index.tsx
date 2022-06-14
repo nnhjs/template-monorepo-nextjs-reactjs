@@ -2,8 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import {sum} from '@package/utils'
+import {printf} from '@package/commons'
 
 const Home: NextPage = () => {
+  printf('Import from @package/commons')
   return (
     <div className={styles.container}>
       <Head>
@@ -13,6 +16,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <h1 className={styles.title}>
+          Import from @package/utils: SUM(1,2) =  {sum(1,2)}
+        </h1>
+        <br/>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>

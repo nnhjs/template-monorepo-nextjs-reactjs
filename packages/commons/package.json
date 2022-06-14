@@ -1,18 +1,13 @@
 {
-  "name": "package2",
+  "name": "@package/commons",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-    "lodash": "3.0.0"
   },
   "dependencies": {
-    "package1": "^0.0.1",
-    "react": "18.1.0"
-  },
-  "peerDependencies": {
-    "react": "18.1.0"
+    "@package/utils": "0.0.1"
   },
   "keywords": [],
   "author": "",

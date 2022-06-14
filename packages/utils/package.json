@@ -1,0 +1,12 @@
+{
+  "name": "@package/utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
