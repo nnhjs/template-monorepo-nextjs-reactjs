@@ -26,6 +26,7 @@ git clone https://github.com/nnhjs/template-monorepo-nextjs-reactjs.git
 cd template-monorepo-nextjs-reactjs
 npm install 
 npm run bootstrap
+rm -rf .git
 git remote set-url <this url your github used base>
 git push --force
 ```
