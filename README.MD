@@ -27,8 +27,12 @@ cd template-monorepo-nextjs-reactjs
 npm install 
 npm run bootstrap
 rm -rf .git
-git remote set-url <this url your github used base>
-git push --force
+git init
+git add .
+git commit -m 'config project complete'
+git remote add origin <your-url-git>
+git branch -M main
+git push -u origin main
 ```
 
 ## Contributing
